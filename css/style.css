@@ -78,6 +78,10 @@ nav a:hover {
   padding: 20px;
 }
 
+.card > ul {
+  display: inline-block;
+}
+
 .photocard {
   color: #097E9F;
   border-radius: 30px;
@@ -135,6 +139,7 @@ nav a:hover {
 main{
   margin: 30px;
 }
+
 
 .contact_buttons {
   display: flex;

@@ -1,0 +1,124 @@
+body {
+  background-color:#dfb376;
+  margin: 0;
+  padding: 0;
+}
+
+header h1 {
+  color: #DB801F;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 40px;
+	-webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #05466E;
+  flex-direction: column;
+}
+
+.second-hero {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding: 20px;
+  position: relative;
+}
+
+
+.hero::before {    
+  content: "";
+  background-image: url(/img/blue_feathers.jpg);
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.5;
+  z-index: -1;
+  overflow-y: visible;
+}
+
+.hero {
+  position: relative; 
+  height: 30vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  overflow-y: visible;
+}
+
+.logo img {
+  height: 90px;
+  width: 90px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  border-top: 10px;
+  flex-direction: column;
+  text-align: center;
+}
+
+nav a {
+  padding: 10px;
+  text-decoration: none;
+  color: #097E9F;
+  font-size: 20px;
+  height: 20px;
+  background-color: #dfb376;
+}
+
+nav a:hover {
+  color:#ACDDE4;
+  background-color: #DB801F;
+  border-radius: 3px;
+}
+
+.card {
+  color: #097E9F;
+  text-align: center;
+  border: 3px solid #DB801F;
+  background-color: #eac898;
+  border-radius: 30px;
+  box-shadow: 7px 10px 17px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+  padding: 20px;
+}
+
+.photocard {
+  color: #097E9F;
+  border-radius: 30px;
+  box-shadow: 7px 10px 17px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+}
+
+.cards {
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  gap: 15px;
+  flex-direction: column;
+}
+
+.photos {
+  border-radius: 30px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: 3px solid #097E9F;
+}
+
+@media (min-width: 600px) {
+  header, nav {
+    flex-direction: row;
+  }
+  /*.cards, .photocard {
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+  }*/
+}
+
+
+

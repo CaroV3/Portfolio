@@ -15,7 +15,7 @@ header h1 {
 
 .hero::before {    
   content: "";
-  background-image: url(/img/blue_feathers.jpg);
+  background-image: url(img/blue_feathers.jpg);
   background-size: cover;
   position: absolute;
   top: 0px;

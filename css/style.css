@@ -15,7 +15,7 @@ header h1 {
 
 .hero::before {    
   content: "";
-  background-image: url(img/blue_feathers.jpg);
+  background-image: url(https://th.bing.com/th/id/R.6580b3796877357edc2d3d31ac077aab?rik=NTrUq6Tw%2fid%2fQg&riu=http%3a%2f%2fpapers.co%2fwallpaper%2fpapers.co-vt31-feather-blue-bird-texture-pattern-27-wallpaper.jpg&ehk=BRognMimo9EOjlHumjCTUTyCRVw3%2fQXfkjb5UhOBGEo%3d&risl=&pid=ImgRaw&r=0);
   background-size: cover;
   position: absolute;
   top: 0px;

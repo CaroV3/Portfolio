@@ -73,7 +73,7 @@ nav a:hover {
   border: 3px solid #DB801F;
   background-color: #eac898;
   border-radius: 30px;
-  box-shadow: 7px 10px 17px rgba(0, 0, 0, 0.3);
+  box-shadow: 7px 10px 17px rgba(0, 0, 0, 0.2);
   margin: 10px;
   padding: 20px;
 }

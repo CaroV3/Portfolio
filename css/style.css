@@ -30,7 +30,7 @@ h1 {
   width: 100%;
   display:flex;
   flex-direction: column;
-  background-image: url(https://CaroV3.github.io/Portfolio/img/hero_Spoonbills.jpg);
+  background-image: url(https://carov3.github.io/Portfolio/img/hero_Spoonbills.JPG);
 }
 
 .logo img {
@@ -178,7 +178,7 @@ main{
 }
 
 .background {
-  background-image: url(https://CaroV3.github.io/Portfolio/img/hero_Spoonbills.jpg);
+  background-image: url(https://carov3.github.io/Portfolio/img/hero_Spoonbills.JPG);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

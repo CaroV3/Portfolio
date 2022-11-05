@@ -30,7 +30,7 @@ h1 {
   width: 100%;
   display:flex;
   flex-direction: column;
-  background-image: url(/img/hero_Spoonbills.JPG);
+  background-image: url(img/hero_Spoonbills.JPG);
 }
 
 .logo img {
@@ -178,7 +178,7 @@ main{
 }
 
 .background {
-  background-image: url(/img/hero_Spoonbills.JPG);
+  background-image: url(img/hero_Spoonbills.JPG);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
